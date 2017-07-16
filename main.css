@@ -1,7 +1,41 @@
 body,html{
-	margin: 0;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
 	padding: 0;
-	width: 100%;
+	width: 90%;
 	height: 100%;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
+
+/*
+content 
+*/
+header{
+	height:90px;
+	border-bottom:thick solid #7d97ad;
+	vertical-align: botom;
+}
+.header_text{
+	text-align:right;
+	display: inline-block;
+	float: right;
+	
+}
+.name{
+	font-size: 3em;
+	color: #2d3c49;
+	text-transform: uppercase;
+	font-weight: 100;
+	}
+.description{
+	font-size: 1em;
+	font-weight:normal;
+}
+
+.logo{
+	max-height: 50px;
+	max-width: 50px;
+}
+
