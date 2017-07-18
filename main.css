@@ -2,7 +2,8 @@ body,html {
 	box-sizing: border-box;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2em;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	padding: 0;
 	width: 90%;
 	height: 100%;
@@ -23,7 +24,6 @@ header {
 	text-align:right;
 	display: inline-block;
 	float: right;
-	
 }
 .header_name {
 	font-size: 2em;
@@ -33,7 +33,6 @@ header {
 	font-size: 1em;
 	font-weight:normal;
 }
-
 .logo {
 	max-height: 50px;
 	max-width: 50px;
@@ -47,7 +46,7 @@ Main image..
 	background-image: url("./images/Fjords.jpg");
 	background-size:cover;
 	margin-top: 2em;
-	height:100%;
+	height:50%;
 }
 
 /*
@@ -58,39 +57,37 @@ h1{
 	font-weight: 100;
 	color: #7d97ad;
 }
-	
-}
 .work_container {
 	margin-top: 2em;
 	width: 100%;
-	display:-webkit-flex;
 	display: flex;
-	flex-wrap: true
+   	flex-direction:row;
 	justify-content: space-between;
 }
 .work_content {
-	width:30%;
-	margin: auto;
-	display: inline-block;
+	width: 25%;
+	margin: 0;
+	display:inline-block;
 }
 
 .work_image {
-	width:40%;
-	display:block;
-	margin: auto;
+	width:50%;
+	display: block;
+	margin:auto;
 }
 
-figcaption {
+.work_description{
 	color:#2d3c49;
-	text-align: center;
+	font-size: 0.75em;
+	text-align:center;
+	vertical-align: text-bottom;
 	margin-top: 1.75em;
 }
 
 .work_link {
 	text-align: center;	
 	font-size: 0.75em;
-	margin-top: 1em;
-
+	margin-top: 0.75em;
 }
 
 a {
