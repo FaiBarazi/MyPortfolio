@@ -10,7 +10,7 @@ body,html {
 }
 
 /*
-content 
+header
 */
 header {
 	height:80px;
@@ -39,6 +39,9 @@ header {
 	max-width: 50px;
 }
 
+/*
+Main image.. 
+*/
 .main_image {
 	width: 100%;
 	background-image: url("./images/Fjords.jpg");
@@ -47,6 +50,9 @@ header {
 	height:100%;
 }
 
+/*
+Featured Work 
+*/
 h1{
 	font-size: 2.25em;
 	font-weight: 100;
@@ -57,13 +63,14 @@ h1{
 .work_container {
 	margin-top: 2em;
 	width: 100%;
+	display:-webkit-flex;
 	display: flex;
-	flex-direction: row;
+	flex-wrap: true
 	justify-content: space-between;
 }
 .work_content {
 	width:30%;
-	margin: 0;
+	margin: auto;
 	display: inline-block;
 }
 
@@ -81,12 +88,13 @@ figcaption {
 
 .work_link {
 	text-align: center;	
+	font-size: 0.75em;
+	margin-top: 1em;
+
 }
 
 a {
-	color:#7d97ad;
-	font-size: 1em;
-	margin-top: 1em;
+	color:#7d97ad;	
 }
 
 
